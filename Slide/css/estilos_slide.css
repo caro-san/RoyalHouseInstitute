@@ -1,0 +1,50 @@
+
+.slide{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slide ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation-name: SlideRHI;
+		-moz-animation-name: SlideRHI;
+		-webkit-animation-name: SlideRHI;
+	animation-direction: alternate;
+		-moz-animation-direction: alternate;
+		-webkit-animation-direction: alternate;
+	animation-duration: 20s;
+		-moz-animation-duration: 20s;
+		-webkit-animation-duration: 20s;
+	animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+	
+	
+}
+
+.slide li{
+	width: 100%;
+	list-style: none;
+
+}
+
+.slide img{
+	width: 100%;
+}
+
+@keyframes SlideRHI{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left:-200%;}
+	70%{margin-left:-200%;}
+
+	75%{margin-left:-300%;}
+	100%{margin-left:-300%;}
+}
