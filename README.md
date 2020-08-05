@@ -1,4 +1,4 @@
-# Royal High Institute
+# Royal House Institute
 
 Pagina web creada solo con HTML5 y Css3
 
